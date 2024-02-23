@@ -1,0 +1,482 @@
+*{
+    border: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#header-row {
+    background-color: #12111F; 
+    display: flex;
+    justify-content: space-around;
+    color: #72A200; 
+    height: 25px;
+    text-align: center;
+}
+
+#header-row p {
+    margin-top: 5px;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: #72A200;
+}
+
+.logo img {
+    position: relative;
+    left: 100px;
+    width: 60px;
+    border-radius: 50%;
+}
+
+nav ul {
+    position: relative;
+    right: 100px;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li:last-child {
+    margin-right: 0;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #12111F;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #D54327;
+}
+
+
+/* ----------------------------------------------Products.html-------------------------------------*/
+
+/* Estilo para a lista de opções de filtro */
+
+#toggle-filter {
+    position: relative;
+    background-color: #C42C14; 
+    color: #fff; 
+    padding: 8px 16px; 
+    border: none; 
+    border-radius: 5px; 
+    cursor: pointer; 
+    font-size: 16px; 
+    margin-top: 10px;
+    left: 10px;
+}
+
+
+#toggle-filter:hover {
+    background-color: #421A1A;
+    font-size: 18px;
+}
+
+#filter-options {
+    list-style: none; 
+    padding: 0; 
+    margin: 0; 
+    display: none; 
+}
+
+
+#filter-options li {
+    margin-bottom: 5px; 
+}
+
+
+#filter-options li a {
+    margin-top: 10px;
+    text-decoration: none; 
+    padding: 5px 10px; 
+    border: 1px solid #ccc; 
+    border-radius: 5px; 
+    color: #333; 
+    display: block; 
+}
+
+
+#filter-options li a:hover {
+    background-color: #f0f0f0;
+}
+
+#product-sections {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 15px;
+    margin-bottom: 75px;
+}
+
+
+.product {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    width: 250px;
+    text-align: center;
+}
+
+.product img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.product h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    white-space: nowrap; 
+    overflow: hidden; 
+    text-overflow: ellipsis; 
+}
+
+.product p {
+    margin-bottom: 10px;
+    white-space: nowrap; 
+    overflow: hidden; 
+    text-overflow: ellipsis; 
+}
+
+
+/* Estilo para dispositivos móveis */
+@media only screen and (max-width: 600px) {
+    footer.header-sul-mobile {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px;
+        background-color: #12111F;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        z-index: 9999;
+        border-radius: 0 10px;
+    }
+
+    footer.header-sul-mobile .menu-toggle {
+        display: flex;
+        align-items: center;
+        color: #fff;
+        cursor: pointer;
+        margin-right: 25px;
+    }
+
+    footer.header-sul-mobile .menu-toggle i {
+        font-size: 24px;
+        margin: 0 32px;
+    }
+
+    footer.header-sul-mobile .menu-toggle a {
+        color: #72A200;
+        text-decoration: none;
+        font-size: 24px;
+    }
+
+    footer.header-sul-mobile .menu-toggle a:hover {
+        color: #D54327;
+    }
+
+    footer.header-sul-mobile .menu {
+        display: none;
+    }
+
+    footer.header-sul-mobile.open .menu {
+        display: block;
+    }
+
+    footer.header-sul-mobile .menu ul {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+    }
+
+    footer.header-sul-mobile .menu ul li {
+        margin-bottom: 10px;
+    }
+
+    footer.header-sul-mobile .menu ul li:last-child {
+        margin-bottom: 0;
+    }
+
+    footer.header-sul-mobile .menu ul li a {
+        color: #fff;
+        text-decoration: none;
+        font-weight: bold;
+    }
+
+    footer.header-sul-mobile .menu ul li a:hover {
+        color: #D54327;
+    }
+}
+
+/* header row */
+@media only screen and (max-width: 601px) {
+    
+    #header-row p:nth-child(2) {
+        display: block;
+    }
+    #header-row p:nth-child(1),
+    #header-row p:nth-child(3) {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 602px) {
+    #header-row p {
+        display: block;
+    }
+}
+
+
+/* Estilo para dispositivos móveis hamburguer */
+@media only screen and (max-width: 600px) {
+    header {
+        flex-direction: row; 
+    }
+
+    .logo {
+        position: relative;
+        right: 50px;
+        align-self: flex-start; 
+        margin-bottom: 5px;
+    }
+
+    .mobile-nav {
+        display: flex;
+        align-items: center;
+    }
+
+    .hamburger-icon {
+        position: relative;
+        right: 20px;
+        margin-bottom: 15px;
+        cursor: pointer;
+        margin-right: 7px;
+    }
+
+    .menu {
+        display: none;
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+    }
+
+    .hamburger-icon i {
+        font-size: 32px;
+    }
+
+    .menu li {
+        padding: 10px;
+    }
+
+    .menu li a {
+        text-decoration: none;
+        color: #000;
+    }
+
+    .mobile-nav.active .menu {
+        display: block;
+    }
+}
+
+/* dispositivos móveis */
+@media only screen and (max-width: 600px) {
+    /* Ocultar o header desktop em dispositivos móveis */
+    header.desktop-header {
+        display: none;
+    }
+}
+
+/* dispositivos móveis */
+@media only screen and (max-width: 600px) {
+    /* Ocultar o header desktop em dispositivos móveis */
+    header.desktop-header {
+        display: none;
+    }
+}
+
+
+/* dispositivos desktop */
+@media only screen and (min-width: 601px) {
+    /* Ocultar o ícone de hamburguer no desktop */
+    .mobile-header {
+        display: none;
+    }
+}
+
+/* dispositivos desktop */
+@media only screen and (min-width: 601px) {
+    /* Ocultar o ícone de hamburguer no desktop */
+    .header-sul-mobile {
+        display: none;
+    }
+}
+
+
+
+
+
+/*-------------------------------------------------client.html-------------------------------- */
+
+
+
+
+/* Estilo para o contêiner dos clientes */
+#info-clients {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-bottom: 75px;
+}
+
+
+.client {
+    border: 1px solid #ccc;
+    padding: 20px;
+    width: 200px;
+}
+
+
+h1 {
+    text-align: center;
+}
+
+
+.client p:nth-child(1) {
+    font-weight: bold;
+}
+
+
+.client img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+
+.client p:nth-child(3) {
+    font-style: italic;
+}
+
+
+@media only screen and (max-width: 768px) {
+    #info-clients {
+        margin-top: 20px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center; 
+    }
+
+    .client {
+        border: 1px solid #ccc;
+        padding: 20px;
+        width: 200px;
+        transition: transform 0.3s ease;
+    }
+
+   
+    .client:focus {
+        transform: scale(1.1); 
+        z-index: 1;
+    }
+}
+
+
+h1 {
+    text-align: center;
+}
+
+
+.client p:nth-child(1) {
+    font-weight: bold;
+}
+
+
+.client img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+
+.client p:nth-child(3) {
+    font-style: italic;
+}
+
+
+
+
+/*-------------------------------------------------aboutUs.html-------------------------------- */
+
+/* Estilos para a seção About */
+#About {
+    padding: 50px;
+    background-color: #f9f9f9;
+  }
+  
+  
+  #About h1 {
+    font-size: 32px;
+    margin-bottom: 20px;
+    color: #333;
+    
+  }
+  
+  #About ol {
+    text-align: center;
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  #About ol li {
+    display: inline-block;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    font-size: 18px;
+  }
+  
+  #About p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #666;
+  }
+  
+  #About span {
+    font-weight: bold;
+    color: #333;
+  }
+  
+ 
+  #About span:first-of-type {
+    margin-top: 20px;
+    display: block;
+  }
+  
+  #About span:not(:first-of-type) {
+    margin-top: 40px;
+    display: block;
+  }
+  
+
+  #About span + p {
+    margin-top: 10px;
+  }
+  
+
+
+  .logoo {
+    display: inline-block; /* Certifica-se de que o logo está na mesma linha que outros elementos da barra de navegação */
+    margin-right: 20px; /* Ajuste conforme necessário */
+}

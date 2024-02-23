@@ -1,0 +1,104 @@
+[
+    {   
+        "id": 1,
+        "image": "/uploads/relogiow69-ultra.jpg",
+        "name": "Relogio Inteligente w69 ultra plus",
+        "description": "AKAPSOAKSOAKSPAKSOKOSPSKKS"
+
+    },
+
+    {   
+        "id": 2,
+        "image": "/uploads/hello-3+.jpg",
+        "name": "Relogio Inteligente hello 3+",
+        "description": "AKAPSOAKSOAKSPAKSOKOSPSKKS"
+    },
+
+    {   
+        "id": 3,
+        "image": "/uploads/shopping (2).webp",
+        "name": "Relogio Inteligente T 800",
+        "description": "AKAPSOAKSOAKSPAKSOKOSPSKKS"
+    },
+
+
+    {   
+        "id": 4,
+        "image": "/uploads/Lenovo GM2PRO.webp",
+        "name": "Lenovo Gm2Pro",
+        "description": "AKAPSOAKSOAKSPAKSOKOSPSKKS",
+        "price": 100
+    },
+
+    {   
+        "id": 5,
+        "image": "/uploads/gm2pro(2).jfif",
+        "name": "Lenovo Lp40",
+        "description": "AKAPSOAKSOAKSPAKSOKOSPSKKS"
+
+    },
+
+    {   
+        "id": 6,
+        "image": "/uploads/gm2pro(3).jfif",
+        "name": "Medidor Pressão Arterial",
+        "description": "AKAPSOAKSOAKSPAKSOKOSPSKKS"
+
+    },
+
+    {   
+        "id": 7,
+        "image": "/uploads/shopping (2).webp",
+        "name": "Relogio Inteligente hello 3+",
+        "description": "AKAPSOAKSOAKSPAKSOKOSPSKKS"
+   
+    },
+
+    {   
+        "id": 8,
+        "image": "/uploads/gm2pro (1).jfif",
+        "name": "Lenovo Gm2Pro",
+        "description": "AKAPSOAKSOAKSPAKSOKOSPSKKS"
+   
+    },
+
+    {   
+        "id": 9,
+        "image": "/uploads/gm2pro(3).jfif",
+        "name": "Medidor Pressão Arterial",
+        "description": "AKAPSOAKSOAKSPAKSOKOSPSKKS"
+
+    },
+
+    {   
+        "id": 10,
+        "image": "/uploads/gm2pro(3).jfif",
+        "name": "Fire Stick TV",
+        "description": "AKAPSOAKSOAKSPAKSOKOSPSKKS"
+       
+    },
+
+    {   
+        "id": 11,
+        "image": "/uploads/gm2pro(3).jfif",
+        "name": "Medidor Pressão Arterial",
+        "description": "AKAPSOAKSOAKSPAKSOKOSPSKKS"
+       
+    },
+
+    {   
+        "id": 12,
+        "image": "/uploads/gm2pro(3).jfif",
+        "name": "Medidor Pressão Arterial",
+        "description": "AKAPSOAKSOAKSPAKSOKOSPSKKS"
+      
+    },
+
+    {   
+        "id": 13,
+        "image": "/uploads/gm2pro(3).jfif",
+        "name": "Medidor Pressão Arterial",
+        "description": "AKAPSOAKSOAKSPAKSOKOSPSKKS"
+        
+    }
+]
