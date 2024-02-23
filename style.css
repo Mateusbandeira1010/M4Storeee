@@ -475,8 +475,3 @@ h1 {
   }
   
 
-
-  .logoo {
-    display: inline-block; /* Certifica-se de que o logo está na mesma linha que outros elementos da barra de navegação */
-    margin-right: 20px; /* Ajuste conforme necessário */
-}
